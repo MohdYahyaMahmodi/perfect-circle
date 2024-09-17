@@ -42,7 +42,7 @@ Perfect Circle is an engaging web-based game that challenges players to draw the
 
 ## 🎮 Demo
 
-Check out the live demo of the Perfect Circle game [here](https://your-demo-url.com).
+Check out the live demo of the Perfect Circle game [here](https://mohdyahyamahmodi.github.io/perfect-circle/).
 
 ## 🚀 Getting Started
 
@@ -67,7 +67,7 @@ To get a local copy up and running, follow these simple steps:
 5. Try again to beat your high score!
 
 <div align="center">
-  <img src="images/gameplay.gif" alt="How to Play" width="400"/>
+  <img src="images/gameplay.gif" alt="How to Play" width="800"/>
 </div>
 
 ## 🌐 Multilingual Support
@@ -102,9 +102,12 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 📞 Contact
+## 🔗 Contact
 
-Mohd Yahya Mahmodi - [@MohdMahmodi](https://twitter.com/MohdMahmodi) - contact@mohdmahmodi.com - mohdmahmodi.com
+Mohd Yahya Mahmodi
+- Twitter: [@MohdMahmodi](https://twitter.com/MohdMahmodi)
+- Email: contact@mohdmahmodi.com
+- Website: [mohdmahmodi.com](https://mohdmahmodi.com)
 
 Project Link: [https://github.com/MohdYahyaMahmodi/perfect-circle](https://github.com/MohdYahyaMahmodi/perfect-circle)
 
