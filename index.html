@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Circle</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <!-- Open Graph meta tags for link previews -->
+    <meta property="og:title" content="Perfect Circle Game">
+    <meta property="og:description" content="Try to draw the perfect circle and get the best score!">
+    
+    <!-- Primary image (GIF for platforms that support it) -->
+    <meta property="og:image" content="images/gameplay.gif">
+    
+    <!-- Fallback static image -->
+    <meta property="og:image:secure_url" content="images/gameplay.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- URL and type for the webpage -->
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card meta tags (optional for Twitter sharing) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Perfect Circle Game">
+    <meta name="twitter:description" content="Try to draw the perfect circle and get the best score!">
+    
+    <!-- GIF for Twitter (since it supports GIFs) -->
+    <meta name="twitter:image" content="images/gameplay.gif">
+
+    <!-- Fallback static image for Twitter -->
+    <meta name="twitter:image:alt" content="images/gameplay.png">
+</head>
+
+<body>
+    <!-- 
+    Draw a Perfect Circle Game
+    Created by: Mohd Mahmodi
+    GitHub: https://github.com/MohdYahyaMahmodi/perfect-circle
+    
+    This is an interactive web game where users try to draw a perfect circle.
+    The game provides feedback on the perfection of the drawn circle and supports multiple languages.
+    -->
+    <div id="gameArea">
+        <!-- Canvas element where the user will draw the circle -->
+        <canvas id="canvas"></canvas>
+        
+        <!-- Message area for displaying instructions, scores, and feedback -->
+        <div id="message">
+            <!-- Percentage display for the current score -->
+            <div id="percentage" class="hidden"></div>
+            <!-- High score display -->
+            <div id="highScoreDisplay" class="hidden"></div>
+            <!-- Feedback message based on the drawn circle -->
+            <div id="feedback" class="hidden"></div>
+            <!-- Instructions for the user -->
+            <div id="instruction"></div>
+        </div>
+        
+        <!-- Score board for displaying current score and high score -->
+        <div id="scoreBoard" class="hidden">
+            <div id="score"></div>
+            <div id="highScore"></div>
+        </div>
+        
+        <!-- Link to the GitHub repository -->
+        <a href="https://github.com/MohdYahyaMahmodi/perfect-circle" target="_blank" id="githubLink"></a>
+        
+        <!-- Language selection dropdown -->
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="ja">日本語</option>
+        </select>
+    </div>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
